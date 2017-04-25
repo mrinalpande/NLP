@@ -1,11 +1,4 @@
-#tfidf teaching computer to read
-#my,on,sat,the common words
-#tfidf better stratergy to count
-#tdidf score to rank the importance
-# tfidf=termfrequency*inverse frequency
-# termfrequency = 1 + log(number of times a word appears) 
-# inverse doc frequency = log(number of docs/number of docs containing word)
-import mathd
+import math
 
 #Computing TF
 def computeTF(wordDict, bow):
